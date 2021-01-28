@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "552431555348",
+    "firebase_url": "https://newblog-716d8.firebaseio.com",
+    "project_id": "newblog-716d8",
+    "storage_bucket": "newblog-716d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552431555348:android:cfc5479685d0b9bee8e801",
+        "android_client_info": {
+          "package_name": "com.nitin.simpleblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552431555348-8dtk0fak1v0fejkt479affbtcm90d2n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUR6SFf_Z9e-YkfN5DcCLmqZ_7i18-4Tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552431555348-8dtk0fak1v0fejkt479affbtcm90d2n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

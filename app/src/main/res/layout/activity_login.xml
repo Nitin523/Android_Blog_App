@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2376CD"
+    android:padding="7dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/regPageLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08"
+        app:srcCompat="@mipmap/login_page_logo" />
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="#EAE4E4"
+        android:textColorHint="#E4E1E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regPageLogo"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <EditText
+        android:id="@+id/reg_confirm_pass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="14dp"
+        android:textColor="#EDE3E3"
+        android:textColorHint="#F1EBEB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_email"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="177dp"
+        android:layout_height="46dp"
+        android:background="#ED2C2C"
+        android:ellipsize="end"
+        android:text="@string/login_btn_account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EFE9E9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_confirm_pass"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <Button
+        android:id="@+id/reg_login_btn"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:background="#F4EEEE"
+        android:padding="20dp"
+        android:text="@string/register_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_btn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ProgressBar
+        android:id="@+id/reg_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:progressBackgroundTint="#F8F5F5"
+        android:progressTint="#C12020"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/regPageLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
